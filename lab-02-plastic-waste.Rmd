@@ -1,5 +1,6 @@
 ---
 title: "Lab 02 - Global plastic waste"
+author: "Elisabeth Ostrowski"
 output: 
   tufte::tufte_html:
     tufte_variant: "envisioned"
@@ -103,7 +104,11 @@ plastic_waste %>%
 Did you expect this result?
 You might consider doing some research on Trinidad and Tobago to see why plastic waste per capita is so high there, or whether this is a data error.
 
+I did not expect this result.
+
 1.  Plot, using histograms, the distribution of plastic waste per capita faceted by continent. What can you say about how the continents compare to each other in terms of their plastic waste per capita?
+
+North America seems to have a very high amount of plastic waste per capita, and Oceania is one of the continents with the least. 
 
 ```{marginfigure}
 **NOTE:** From this point onwards the plots and the output of the code are not displayed in the lab instructions, but you can and should the code and view the results yourself.
@@ -153,6 +158,8 @@ This still doesn't look great...
 1.  Recreate the density plots above using a different (lower) alpha level that works better for displaying the density curves for all continents.
 
 2.  Describe why we defined the `color` and `fill` of the curves by mapping aesthetics of the plot but we defined the `alpha` level as a characteristic of the plotting geom.
+
+We define the 'color' and 'fill' so the aesthetics are directly relating to the variable. The alpah level is the characteristics of the plotting geom because it is a setting we want applied to the entire graph. 
 
 🧶 ✅ ⬆️ *Now is a good time to knit your document and commit and push your changes to GitHub with an appropriate commit message. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
 
