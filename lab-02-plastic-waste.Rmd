@@ -174,15 +174,21 @@ ggplot(data = plastic_waste,
 
 1.  Convert your side-by-side box plots from the previous task to [violin plots](http://ggplot2.tidyverse.org/reference/geom_violin.html). What do the violin plots reveal that box plots do not? What features are apparent in the box plots but not in the violin plots?
 
+Violin plots show the density and the shape of the distribution which box plots don't. Box plots can help show outliers. 
+
 ```{marginfigure}
 **Remember:** We use `geom_point()` to make scatterplots.
 ```
 
 1.  Visualize the relationship between plastic waste per capita and mismanaged plastic waste per capita using a scatterplot.
     Describe the relationship.
+    
+The relationship between the plastic waste per capita and mismanaged plastic waste per capita shows that the ratio between the two is almost the same. 
 
 2.  Colour the points in the scatterplot by continent.
     Does there seem to be any clear distinctions between continents with respect to how plastic waste per capita and mismanaged plastic waste per capita are associated?
+    
+There does seem to be some clear distinctions between continents. 
 
 3.  Visualize the relationship between plastic waste per capita and total population as well as plastic waste per capita and coastal population.
     You will need to make two separate plots.
